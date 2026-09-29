@@ -3,21 +3,167 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gridline</title>
-  <meta name="description" content="Race weekend times, results and standings in your time zone.">
-  <link rel="stylesheet" href="/style.css">
+  <title>Gridline – Race weekend times &amp; results</title>
+  <meta name="description" content="Every practice, qualifying, sprint and race session in your time zone, with podiums, starting grids, results, standings and Home Screen widgets. For iPhone.">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta property="og:title" content="Gridline – Race weekend times & results">
+  <meta property="og:description" content="Every session of the race weekend in your time zone, plus podiums, grids, results and widgets.">
+  <meta property="og:image" content="/img/01-circuit-schedule.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="apple-touch-icon" href="/img/icon.png">
+  <link rel="stylesheet" href="/landing.css">
 </head>
 <body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand wide" href="/"><img src="/img/icon.png" alt="" width="36" height="36">Gridline</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#widgets">Widgets</a>
+        <a href="#screens">Screens</a>
+        <a class="keep" href="/support/">Support</a>
+      </nav>
+    </header>
+  </div>
+
   <main>
-    <span class="badge">iPhone app</span>
-    <h1>Gridline</h1>
-    <p class="dim">Race weekend times &amp; results</p>
-    <p>Every practice, qualifying, sprint and race session in your own time zone, with podiums, starting grids, results, championship standings and Home Screen widgets.</p>
-    <nav>
-      <a href="/support/">Support</a>
-      <a href="/privacy/">Privacy Policy</a>
-    </nav>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="badge">For iPhone</span>
+          <h1 class="wide">Every session.<br>Your time zone.</h1>
+          <p class="lead">Practice, qualifying, sprint and race times converted for wherever you are, plus podiums, grids, results and standings the moment they're in.</p>
+          <div class="cta">
+            <a class="button primary" href="#screens" aria-label="Coming soon to the App Store">
+              <svg width="20" height="24" viewBox="0 0 20 24" aria-hidden="true"><path fill="currentColor" d="M16.5 12.7c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM14 5.2c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg>
+              <span><small>Coming soon to the</small>App Store</span>
+            </a>
+            <a class="button ghost" href="#features">See features</a>
+          </div>
+        </div>
+        <div class="phones" aria-hidden="true">
+          <div class="phone back"><img src="/img/03-podium-highlights.jpg" alt="" width="543" height="1180"></div>
+          <div class="phone front"><img src="/img/01-circuit-schedule.jpg" alt="" width="543" height="1180"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <h2 class="section-title wide">One page per race weekend</h2>
+        <p class="section-lead">Swipe between weekends. Gridline opens on the next one and loads everything that's available right now, from the schedule to the final classification.</p>
+        <div class="features">
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <h3 class="wide">Your local times</h3>
+            <p>Every session shown in your device's time zone, or pick any other one.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M10 2h4M12 14l3-3"/><circle cx="12" cy="14" r="8"/></svg></div>
+            <h3 class="wide">Live countdown</h3>
+            <p>Know exactly how long until lights out, with the next session highlighted.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 20v-6h4v6M10 20V9h4v11M15 20v-8h4v8"/></svg></div>
+            <h3 class="wide">Animated podium</h3>
+            <p>The classic 2-1-3 podium, plus last year's winners before the race.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="6" height="5" rx="1"/><rect x="14" y="7" width="6" height="5" rx="1"/><rect x="4" y="12" width="6" height="5" rx="1"/><rect x="14" y="16" width="6" height="5" rx="1"/></svg></div>
+            <h3 class="wide">Starting grid</h3>
+            <p>A staggered grid, just like on track, with each driver's qualifying time.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h13"/><path d="M19 15l2 3h-4z"/></svg></div>
+            <h3 class="wide">Results &amp; highlights</h3>
+            <p>Positions gained or lost, points, fastest lap, biggest mover and fastest pit stop.</p>
+          </article>
+          <article class="card">
+            <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 7h14M4 12h10M4 17h6"/></svg></div>
+            <h3 class="wide">Championships</h3>
+            <p>Drivers' and constructors' standings after every round, with animated bars.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="widgets">
+      <div class="wrap split">
+        <div class="phone"><img src="/img/02-widgets.jpg" alt="Gridline widgets on the iPhone Home Screen showing the next session with a countdown" width="543" height="1180" loading="lazy"></div>
+        <div class="text">
+          <h2 class="section-title wide">Right on your Home Screen</h2>
+          <p class="section-lead">Medium and large widgets put the next session front and center and list the rest of the weekend alongside it.</p>
+          <ul class="checklist">
+            <li><span><strong>Next session, big and bold.</strong> Day, time and a countdown at a glance.</span></li>
+            <li><span><strong>The rest of the weekend.</strong> Everything that comes after, in a compact list.</span></li>
+            <li><span><strong>Always current.</strong> Updates itself whenever new data is available.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="screens">
+      <div class="wrap">
+        <h2 class="section-title wide">Take a look</h2>
+        <p class="section-lead">Built with a dark, pit-wall style that keeps every number easy to read.</p>
+        <div class="gallery" tabindex="0" aria-label="App screenshots">
+          <figure><img src="/img/01-circuit-schedule.jpg" alt="Circuit layout and weekend schedule" width="543" height="1180" loading="lazy"><figcaption>Circuit &amp; schedule</figcaption></figure>
+          <figure><img src="/img/03-podium-highlights.jpg" alt="Session winners, podium and race highlights" width="543" height="1180" loading="lazy"><figcaption>Podium &amp; highlights</figcaption></figure>
+          <figure><img src="/img/04-race-results.jpg" alt="Race classification with points and positions gained" width="543" height="1180" loading="lazy"><figcaption>Race results</figcaption></figure>
+          <figure><img src="/img/05-starting-grid.jpg" alt="Staggered starting grid with qualifying times" width="543" height="1180" loading="lazy"><figcaption>Starting grid</figcaption></figure>
+          <figure><img src="/img/06-championships.jpg" alt="Drivers and constructors championship standings" width="543" height="1180" loading="lazy"><figcaption>Championships</figcaption></figure>
+          <figure><img src="/img/07-team-colors.jpg" alt="The app in an orange team color" width="543" height="1180" loading="lazy"><figcaption>Your color</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="personalize">
+      <div class="wrap split">
+        <div class="text">
+          <h2 class="section-title wide">Make it yours</h2>
+          <p class="section-lead">Pick your favorite team color and the whole app follows, widgets included.</p>
+          <ul class="swatches" aria-label="Available accent colors">
+            <li style="background:#e10600"></li><li style="background:#3671c6"></li><li style="background:#e8002d"></li>
+            <li style="background:#27f4d2"></li><li style="background:#ff8000"></li><li style="background:#229971"></li>
+            <li style="background:#0093cc"></li><li style="background:#64c4ff"></li><li style="background:#6692ff"></li>
+            <li style="background:#b6babd"></li><li style="background:#f50537"></li><li style="background:#c9ccce"></li>
+          </ul>
+          <ul class="pills" aria-label="Languages">
+            <li>English</li><li>Español</li><li>Français</li><li>Português</li>
+          </ul>
+        </div>
+        <div class="phone"><img src="/img/07-team-colors.jpg" alt="Gridline with an orange accent color" width="543" height="1180" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="privacy">
+      <div class="wrap">
+        <div class="card">
+          <h2 class="section-title wide">Just the racing</h2>
+          <p class="section-lead" style="margin: 0 auto;">No sign-up, no ads, no tracking. Your settings stay on your iPhone.</p>
+          <div class="stats">
+            <div>0<span>accounts</span></div>
+            <div>0<span>ads</span></div>
+            <div>0<span>trackers</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer>Gridline is an unofficial app and is not affiliated with Formula 1, the FIA or any team.</footer>
+
+  <footer>
+    <div class="wrap">
+      <div class="row">
+        <a class="brand wide" href="/"><img src="/img/icon.png" alt="" width="36" height="36">Gridline</a>
+        <nav aria-label="Footer">
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy Policy</a>
+        </nav>
+      </div>
+      <p>Gridline is an unofficial app and is not affiliated with, endorsed by or connected to Formula 1, the FIA or any team. Formula 1, F1 and related marks are trademarks of Formula One Licensing B.V. Timing data by the community-run Jolpica API. Circuit layouts from bacinger/f1-circuits (MIT License).</p>
+      <p>© 2026 Oscar Navidad</p>
+    </div>
+  </footer>
 </body>
 </html>
